@@ -1,4 +1,3 @@
-# Imports go at the top
 from microbit import *
 import music
 
@@ -32,9 +31,8 @@ while True:
     else:
         music.stop()
     
-
-
     sleep(33)
+
 
 music.stop()
 display.scroll("Off")
