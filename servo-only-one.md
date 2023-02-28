@@ -1,6 +1,6 @@
 # Servo Motor (only one)
 
-I say "only one" because at the time of writing this, I believe the 3V power supply of the microbit is barely enough to power one servo and may not be cable to power multiple. We have the ability to attach an external power source to the breakout boards when necessary.
+I say "only one" because at the time of writing this, I believe the 3V power supply of the microbit is barely enough to power one servo and may not be able to power multiple. We have the ability to attach an external power source to the breakout boards when necessary.
 
 ```python
 # Imports go at the top
