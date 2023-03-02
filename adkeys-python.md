@@ -1,7 +1,9 @@
 # ADKeys in Python
 
-When attached to a pin on the breakout board, the buttons are read using `analog_read()`. This will return
+When attached to a pin on the breakout board, the buttons are read using `read_analog()`. This will return
 different values based on what button is being pressed. Different hardware may have different results, so check it.
+
+I atteched the ADKeys to `pin0`, so either do that or change the `read_analog()` line.
 
 ```python
 from microbit import *
