@@ -11,24 +11,18 @@ from microbit import *
 # the output values when you press the buttons.
 KEY_A = 3
 KEY_B = 53
-KEY_C = 98
-KEY_D = 139
-KEY_E = 544
+
+# See if you can figure out the remaining buttons yourself.
+
 
 while True:
-    read = pin0.read_analog()
-    print(read)
+    value = pin0.read_analog()
+    print(value)
 
-    if read == KEY_A:
+    if value == KEY_A:
         display.show("A")
-    elif read == KEY_B:
+    elif value == KEY_B:
         display.show("B")
-    elif read == KEY_C:
-        display.show("C")
-    elif read == KEY_D:
-        display.show("D")
-    elif read == KEY_E:
-        display.show("E")
     else:
         display.show(Image.DIAMOND_SMALL)
 
