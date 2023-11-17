@@ -9,6 +9,7 @@
   - Runs off a chromebook
   - Durable
   - Portable
+  - A lot of good tutorials and ideas on the Internet
 - Con's
   - Some students not terribly excited
   - Need to build the structures and physical components
