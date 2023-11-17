@@ -14,6 +14,7 @@
   - Need to build the structures and physical components
   - I'd rather put time into 2D games
   - Limited pins (without extra breakout board)
+  - Primitive display (can attach (extra) LCD screen)
 - Projects
 - Components
   - Accelerometer
