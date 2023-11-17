@@ -13,9 +13,12 @@
   - Some students not terribly excited
   - Need to build the structures and physical components
   - I'd rather put time into 2D games
+  - Limited pins (without extra breakout board)
 - Projects
 - Components
   - Accelerometer
   - Compass
   - Radio
+  - Thermometer
+  - Light sensor
 - 
