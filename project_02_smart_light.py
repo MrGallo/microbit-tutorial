@@ -1,11 +1,10 @@
-# Project 01: MUSIC MACHINE
+# PROJECT 02: SMART LIGHT
 
 from microbit import *
 
 pir_pin = pin0
 blue_led = pin1
  
-# Code in a 'while True:' loop repeats forever
 while True:
     movement = pir_pin.read_digital()
     print(movement)
