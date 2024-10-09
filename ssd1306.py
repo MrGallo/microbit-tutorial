@@ -39,9 +39,7 @@ class SSD1306:
     def text(self, string, x, y):
         index = x + y * 128 // 8
         for c in string.upper():
-            print(c)
             char_index = ord(c)
-            print(char_index)
             for i in range(5):
                 self.buffer[index + i] = FONT[char_index][i]
             index += 6
