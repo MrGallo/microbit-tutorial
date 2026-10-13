@@ -7,7 +7,8 @@ y = 4
 # Code in a 'while True:' loop repeats forever
 while True:
     # 1. Prevent player from moving
-    #    beyond the right wall.
+    #    beyond the right wall rather than
+    #    wrap around.
     # 2. Add button_a functionality.
     
     if button_b.was_pressed():
