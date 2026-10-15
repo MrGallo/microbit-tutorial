@@ -1,3 +1,3 @@
 # Micro:bit Beginner Tutorial
 
-0. [display.set_pixel](display_set_pixel.py)
+1. [Showing individual LEDs on the display](display_set_pixel.py)
