@@ -10,4 +10,6 @@ display.set_pixel(2, 2, 5)
 # 2. draw a pixel in the bottom right corner, full brightness
 # 3. Using the set_pixel function, how could you turn off all 
 #    three LEDs (below the code where you turned them on)?
-
+# 4. Remove the code where you were able to turn off the individual
+#    LEDs. Verify that they stay on once more.
+#    Then, use the display.clear() function to turn off the whole display.
